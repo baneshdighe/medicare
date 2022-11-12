@@ -3,11 +3,12 @@
 <suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="testCases.UserTest">
+      <class name="testCases.AdminTest">
         <methods>
-          <include name="UserHomeTest"/>
+          <include name="AdminProdManag"/>
+          <include name="AdminCredLoginTest"/>
         </methods>
-      </class> <!-- testCases.UserTest -->
+      </class> <!-- testCases.AdminTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

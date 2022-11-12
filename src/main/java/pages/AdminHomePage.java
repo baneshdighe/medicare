@@ -108,6 +108,7 @@ public class AdminHomePage {
 			WebElement Error = driver.findElement(By.id("file.errors"));
 			System.out.println("The appropriate error is shown ..."+Error.getText());
 			
+			driver.close();			
 		}else {
 			System.out.println("Admin is unable to add Product by admin portal");
 		}

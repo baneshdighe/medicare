@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-11T16:45:14 IST" name="Default suite" finished-at="2022-11-11T16:45:21 IST" duration-ms="7281">
+  <suite started-at="2022-11-12T22:19:06 IST" name="Suite" finished-at="2022-11-12T22:19:34 IST" duration-ms="27355">
     <groups>
     </groups>
-    <test started-at="2022-11-11T16:45:14 IST" name="Default test" finished-at="2022-11-11T16:45:21 IST" duration-ms="7281">
-      <class name="databaseTest.MedicinesDatabeseTest">
-        <test-method signature="MedicareDataBaseTest()[pri:1, instance:databaseTest.MedicinesDatabeseTest@3a44431a]" started-at="2022-11-11T16:45:14 IST" name="MedicareDataBaseTest" finished-at="2022-11-11T16:45:20 IST" duration-ms="5804" status="PASS">
+    <test started-at="2022-11-12T22:19:06 IST" name="Test" finished-at="2022-11-12T22:19:34 IST" duration-ms="27355">
+      <class name="testCases.AdminTest">
+        <test-method signature="AdminCredLoginTest()[pri:1, instance:testCases.AdminTest@58695725]" started-at="2022-11-12T22:19:07 IST" name="AdminCredLoginTest" finished-at="2022-11-12T22:19:27 IST" duration-ms="20936" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MedicareDataBaseTest -->
-        <test-method signature="test()[pri:2, instance:databaseTest.MedicinesDatabeseTest@3a44431a]" started-at="2022-11-11T16:45:20 IST" name="test" finished-at="2022-11-11T16:45:20 IST" duration-ms="28" status="PASS">
+        </test-method> <!-- AdminCredLoginTest -->
+        <test-method signature="AdminProdManag()[pri:2, instance:testCases.AdminTest@58695725]" started-at="2022-11-12T22:19:27 IST" name="AdminProdManag" finished-at="2022-11-12T22:19:33 IST" duration-ms="5946" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test2()[pri:3, instance:databaseTest.MedicinesDatabeseTest@3a44431a]" started-at="2022-11-11T16:45:20 IST" name="test2" finished-at="2022-11-11T16:45:20 IST" duration-ms="31" status="PASS">
+        </test-method> <!-- AdminProdManag -->
+      </class> <!-- testCases.AdminTest -->
+      <class name="testCases.UserTest">
+        <test-method signature="UserTestCases()[pri:1, instance:testCases.UserTest@618425b5]" started-at="2022-11-12T22:19:07 IST" name="UserTestCases" finished-at="2022-11-12T22:19:25 IST" duration-ms="18326" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:4, instance:databaseTest.MedicinesDatabeseTest@3a44431a]" started-at="2022-11-11T16:45:20 IST" name="test3" finished-at="2022-11-11T16:45:20 IST" duration-ms="31" status="PASS">
+        </test-method> <!-- UserTestCases -->
+        <test-method signature="valCredTest()[pri:2, instance:testCases.UserTest@618425b5]" started-at="2022-11-12T22:19:25 IST" name="valCredTest" finished-at="2022-11-12T22:19:27 IST" duration-ms="2281" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method signature="test4()[pri:5, instance:databaseTest.MedicinesDatabeseTest@3a44431a]" started-at="2022-11-11T16:45:20 IST" name="test4" finished-at="2022-11-11T16:45:20 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- valCredTest -->
+        <test-method signature="UserHomeTest()[pri:3, instance:testCases.UserTest@618425b5]" started-at="2022-11-12T22:19:27 IST" name="UserHomeTest" finished-at="2022-11-12T22:19:34 IST" duration-ms="6674" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method signature="test5()[pri:6, instance:databaseTest.MedicinesDatabeseTest@3a44431a]" started-at="2022-11-11T16:45:20 IST" name="test5" finished-at="2022-11-11T16:45:20 IST" duration-ms="19" status="PASS">
+        </test-method> <!-- UserHomeTest -->
+      </class> <!-- testCases.UserTest -->
+      <class name="testCases.SignUpTest">
+        <test-method signature="sign_up_testcases()[pri:0, instance:testCases.SignUpTest@3232a28a]" started-at="2022-11-12T22:19:07 IST" name="sign_up_testcases" finished-at="2022-11-12T22:19:30 IST" duration-ms="23938" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method signature="test7()[pri:7, instance:databaseTest.MedicinesDatabeseTest@3a44431a]" started-at="2022-11-11T16:45:20 IST" name="test7" finished-at="2022-11-11T16:45:21 IST" duration-ms="790" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test7 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:databaseTest.MedicinesDatabeseTest@3a44431a]" started-at="2022-11-11T16:45:21 IST" name="tearDown" finished-at="2022-11-11T16:45:21 IST" duration-ms="514" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- databaseTest.MedicinesDatabeseTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- sign_up_testcases -->
+      </class> <!-- testCases.SignUpTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
