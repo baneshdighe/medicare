@@ -41,8 +41,8 @@
   
   </dependencies>
   
-<<<<<<< HEAD
-=======
+<build>
+
   <plugins>
          <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -64,8 +64,7 @@
       </plugin>
   </plugins>
   
- 
-  </build>
->>>>>>> c4cfd79323889a56b39a4f8741e6093bd7b2fbdb
+ </build>
+
   
 </project>
